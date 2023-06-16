@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Game from "./components/Game";
+import GamePage from "./components/GamePage";
 
-ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(<GamePage />, document.getElementById("root"));

@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    /* margin: 20px; */
   }
 
   .active {
@@ -72,9 +78,26 @@ body {
   .game {
     display: flex;
     flex-direction: row;
+    margin: 20px;
   }
   
   .game-info {
     margin-left: 20px;
   }
   
+.menu {
+  background-color: turquoise;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu p {
+  display: block;
+  font-size: large;
+}
+
+.logo {
+  display: block;
+}
